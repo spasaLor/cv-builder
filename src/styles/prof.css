@@ -1,0 +1,66 @@
+.professional{
+    width: 100%;
+}
+.professional-item{
+    background-color: rgb(145, 144, 144);
+    display: flex;
+    padding: 0px 10px;
+    min-height: 56px;
+}
+.professional-item .text{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.professional-item .text .top-part{
+    display: flex;
+    gap:4px;
+}
+
+.professional-item .text .desc{
+    display: flex;
+}
+
+.professional-item .controls{
+    align-self: center;
+    display: flex;
+}
+
+.svg-inline--fa.fa-x:hover{
+    color: red;
+}
+
+.svg-inline--fa.fa-plus:hover, .svg-inline--fa.fa-check:hover{
+    color:green;
+} 
+
+.svg-inline--fa.fa-check{
+    font-size: 20px;
+}
+
+.svg-inline--fa.fa-pen:hover{
+    color: rgb(114, 113, 113);
+}
+
+.professional-item svg{
+    color:black;
+}
+
+.professional-item input{
+    font-size: 1rem;
+    margin: 10px 0px;
+    background-color: rgb(145, 144, 144);
+    border-bottom: 1px solid white;
+}
+
+textarea{
+    resize: none;
+    width: 50%;
+}
+
+.dates{
+    color: white;
+    margin-left: 30px;
+    font-style: italic;
+}

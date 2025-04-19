@@ -1,0 +1,49 @@
+p,h2{
+    color: black;
+}
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    background-color: rgb(87, 104, 237);
+}
+.personal .top-part{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+svg.svg-inline--fa{
+    cursor: pointer;
+    align-self: center;
+    padding-left: 20px;
+    
+}
+.personal input{
+    background-color: rgb(87, 104, 237);
+}
+.bottom-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.bottom-part input{
+    margin-bottom: 10px;
+    max-height: 29px;
+}
+
+.mail, .phone, .location{
+    display: flex;
+    gap:10px;
+}
+
+.mail svg, .phone svg, .location svg {
+    color: white;
+    cursor: default;
+}
+.personal h2, .personal p{
+    color: white;
+}

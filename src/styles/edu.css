@@ -1,0 +1,51 @@
+.educational{
+    width: 100%;
+}
+.educational-item{
+    background-color: rgb(145, 144, 144);
+    display: flex;
+    padding: 0px 10px; 
+    min-height: 56px;
+}
+.educational-item .text{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.text .top-part, .text .desc{
+    display: flex;
+    max-height: 50%;
+}
+
+.educational-item .controls{
+    align-self: center;
+    display: flex;
+}
+
+.svg-inline--fa.fa-x:hover{
+    color: red;
+}
+
+.svg-inline--fa.fa-plus:hover, .svg-inline--fa.fa-check:hover{
+    color:green;
+} 
+
+.svg-inline--fa.fa-check{
+    font-size: 20px;
+}
+
+.educational-item svg{
+    color:black;
+}
+
+.educational-item .text input{
+    width: 50%;
+    background-color: rgb(145, 144, 144);
+    border-bottom: 1px solid white;
+}
+
+.desc input{
+    background-color:rgb(145, 144, 144);
+    border-bottom: 1px solid white;
+}
